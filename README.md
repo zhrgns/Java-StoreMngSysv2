@@ -11,4 +11,4 @@ The project provides a basic inventory management system for a tech store that a
 
 * Product class is a blueprint for creating product objects, with various fields. 
 
-[](mainscreen.jpg)
+ ![](mainscreen.jpg)
