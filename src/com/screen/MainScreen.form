@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.screen.MainScreen">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="376" height="623"/>
+    </constraints>
+    <properties>
+      <background color="-11499857"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="14386" binding="leftPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="378"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3155231"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="8a404" binding="formPanel" layout-manager="GridLayoutManager" row-count="15" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Leelawadee UI" size="14"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a8c3c" class="javax.swing.JTextField" binding="productNameTextField" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="14"/>
+                  <text value="Product Name"/>
+                </properties>
+              </component>
+              <component id="b20ec" class="javax.swing.JComboBox" binding="typeComboBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12"/>
+                  <model>
+                    <item value="Choose Type.."/>
+                    <item value="Notebook"/>
+                    <item value="Mobile Phone"/>
+                    <item value="Other Devices"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="68de4" class="javax.swing.JTextField" binding="priceTextField">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="14"/>
+                  <text value="Price"/>
+                </properties>
+              </component>
+              <component id="fd5ce" class="javax.swing.JTextField" binding="screenSizeTextField">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="14"/>
+                  <text value="Screen Size"/>
+                </properties>
+              </component>
+              <component id="2cb5f" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+                <constraints>
+                  <grid row="11" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Reset"/>
+                </properties>
+              </component>
+              <component id="9c075" class="javax.swing.JTextField" binding="brandTextField">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="14"/>
+                  <text value="Brand"/>
+                </properties>
+              </component>
+              <component id="66b40" class="javax.swing.JTextField" binding="quantityTextField">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="14"/>
+                  <text value="Stock Quantity"/>
+                </properties>
+              </component>
+              <component id="db996" class="javax.swing.JTextField" binding="batteryPowerTextField">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="14"/>
+                  <text value="Battery Power"/>
+                </properties>
+              </component>
+              <component id="50b05" class="javax.swing.JTextField" binding="storageSizeTextField">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="14"/>
+                  <text value="Storage Size"/>
+                </properties>
+              </component>
+              <component id="e4b9c" class="javax.swing.JTextField" binding="ramTextField">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="14"/>
+                  <text value="Ram"/>
+                </properties>
+              </component>
+              <component id="39007" class="javax.swing.JButton" binding="addProductButton" default-binding="true">
+                <constraints>
+                  <grid row="9" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Add Product"/>
+                </properties>
+              </component>
+              <component id="7b3c7" class="javax.swing.JButton" binding="listButton">
+                <constraints>
+                  <grid row="13" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="List Products"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a89e2" binding="titlePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="5" bottom="20" right="5"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ad632" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="20"/>
+                  <text value="PRODUCT MANAGEMENT PANEL"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
